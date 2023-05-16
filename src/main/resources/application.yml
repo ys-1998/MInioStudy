@@ -1,0 +1,14 @@
+
+minio:
+  endpoint: 49.234.54.55
+  port: 9000
+  accessKey: 18227668465
+  secretKey: YS19980506i
+  secure: false
+  bucketName: "aiAlarm"
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
